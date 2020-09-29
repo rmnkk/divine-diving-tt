@@ -1,0 +1,16 @@
+.btn {
+  width: 200px;
+  height: 40px;
+
+  text-transform: uppercase;
+  color: #fff;
+
+  background-color: $primary-color;
+
+  &-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+}

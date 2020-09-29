@@ -1,0 +1,20 @@
+.post {
+  &__description {
+    position: relative;
+
+    font-size: $post-description-font;
+    color: $post-description-color;
+  }
+
+  &__caption {
+    font-size: $post-caption-font;
+    color: $primary-color;
+  }
+
+  &__button {
+    position: absolute;
+    right: 0;
+
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+.contact {
+  position: relative;
+
+  &__heading {
+    font-size: $header-caption-font;
+  }
+
+  &__button {
+    justify-self: end;
+  }
+}

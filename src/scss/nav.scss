@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+    border-right: 1px solid $border-color;
+  }
+
+
+  &__link {
+    position: relative;
+
+    padding: 0 80px;
+
+    font-size: $nav-font;
+    color: #fff;
+  }
+}

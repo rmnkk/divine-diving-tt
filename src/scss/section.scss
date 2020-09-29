@@ -1,0 +1,13 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__caption {
+    justify-self: end;
+
+    font-size: $header-caption-font;
+    text-transform: uppercase;
+    text-align: end;
+  }
+}

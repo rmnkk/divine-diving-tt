@@ -1,0 +1,31 @@
+.form {
+  position: relative;
+
+  display: grid;
+  row-gap: 15px;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__container {
+    display: grid;
+    width: 100%;
+
+    &:nth-child(1) {
+      margin-right: 15px;
+    }
+  }
+
+  &__item {
+    outline: none;
+    resize: none;
+    border: 1px solid $border-color;
+  }
+
+  &__label {
+    text-align: right;
+    color: $primary-color;
+  }
+}

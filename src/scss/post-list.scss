@@ -1,0 +1,18 @@
+.post-list {
+  &-content-container {
+    position: relative;
+  }
+
+  &__container {
+    display: grid;
+    row-gap: 50px;
+  }
+
+  &__item {
+    display: flex;
+  }
+
+  &__image  {
+    margin-right: 15px;
+  }
+}

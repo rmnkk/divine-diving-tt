@@ -1,0 +1,169 @@
+html,
+body,
+ul,
+li,
+button,
+input,
+textarea,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 169%; }
+
+html {
+  scroll-behavior: smooth; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url("../fonts/palatino-linotype.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+.header {
+  height: 100vh;
+  font-family: "Palatino Linotype", serif;
+  background-image: url(../img/header_background_v1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .header__top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+  .header__logo {
+    height: 100px; }
+  .header__middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase; }
+  .header__caption {
+    font-family: "Palatino Linotype", serif;
+    font-size: 26px;
+    color: #fff; }
+
+.nav {
+  display: flex; }
+  .nav__item {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-right: 1px solid #607D8B; }
+  .nav__link {
+    position: relative;
+    padding: 0 80px;
+    font-size: 18px;
+    color: #fff; }
+
+.btn {
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #01ACAC; }
+  .btn-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; }
+
+.content-container {
+  display: grid;
+  width: 1020px;
+  margin-bottom: 50px; }
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .section__caption {
+    justify-self: end;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: end; }
+
+.post-list-content-container {
+  position: relative; }
+.post-list__container {
+  display: grid;
+  row-gap: 50px; }
+.post-list__item {
+  display: flex; }
+.post-list__image {
+  margin-right: 15px; }
+
+.post__description {
+  position: relative;
+  font-size: 12px;
+  color: #E90303; }
+.post__caption {
+  font-size: 24px;
+  color: #01ACAC; }
+.post__button {
+  position: absolute;
+  right: 0;
+  margin-top: 10px; }
+
+.about {
+  position: relative;
+  flex-direction: column; }
+  .about__content {
+    display: grid;
+    row-gap: 20px; }
+  .about__image {
+    max-width: 100%;
+    margin-top: 15px; }
+
+.contact {
+  position: relative; }
+  .contact__heading {
+    font-size: 26px; }
+  .contact__button {
+    justify-self: end; }
+
+.form {
+  position: relative;
+  display: grid;
+  row-gap: 15px; }
+  .form__top {
+    display: flex;
+    justify-content: space-between; }
+  .form__container {
+    display: grid;
+    width: 100%; }
+    .form__container:nth-child(1) {
+      margin-right: 15px; }
+  .form__item {
+    outline: none;
+    resize: none;
+    border: 1px solid #607D8B; }
+  .form__label {
+    text-align: right;
+    color: #01ACAC; }
+
+/*# sourceMappingURL=style.css.map */
